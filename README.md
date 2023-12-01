@@ -1,6 +1,6 @@
 # For visualization
 
-[for most up to date document](https://drive.google.com/file/d/11QSkqCPXR3-UciEJ1aycSnTRiqM57Jmz/view?usp=sharing)
+[for most up to date document](https://docs.google.com/document/d/1HUwWwMeq6F5ZVAUKVfM4C1_cZI1WEt_XQcJfhMQ64yU/edit?usp=sharingg)
 
 **the drawback of generic**
 
