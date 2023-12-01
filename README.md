@@ -8,6 +8,8 @@ Summary
 
 double import of `GenericAgencyProfileModule`
 
+![example](./assets/Screenshot%202023-12-01%20at%2013.17.59.png)
+
 ![GenericAgencyProfileModule](./assets/mereka.io%20-%20Angular%20Library%20-%20navbar-1.%20GenericAgencyProfileModule.drawio.png)
 
 # AngularDoubleImport
