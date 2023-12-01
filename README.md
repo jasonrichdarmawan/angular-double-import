@@ -1,16 +1,14 @@
 # For visualization
 
-[for most up to date](https://drive.google.com/file/d/11QSkqCPXR3-UciEJ1aycSnTRiqM57Jmz/view?usp=sharing)
+[for most up to date document](https://drive.google.com/file/d/11QSkqCPXR3-UciEJ1aycSnTRiqM57Jmz/view?usp=sharing)
 
-Summary
-
-![Summary](./assets//mereka.io%20-%20Angular%20Library%20-%20navbar-Master.drawio.svg)
-
-double import of `GenericAgencyProfileModule`
+**the drawback of generic**
 
 ![example](./assets/Screenshot%202023-12-01%20at%2013.17.59.png)
 
-![GenericAgencyProfileModule](./assets/mereka.io%20-%20Angular%20Library%20-%20navbar-1.%20GenericAgencyProfileModule.drawio.png)
+**what the code looks like**
+
+![what the code looks like](./assets/mereka.io%20-%20Engineering%20Principles%20-%20navbar-angular-generic-drawback-example.drawio%20(1).png)
 
 # AngularDoubleImport
 
