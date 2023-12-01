@@ -1,0 +1,44 @@
+
+<div style="border: solid 1px; padding: 8px;">
+
+    <!-- 
+        try to comment SharedModule from agency-profile.module.ts,
+        and use `<div app-navbar>`
+        it will not throw error.
+    -->
+    <div app-navbar></div>
+
+    <!-- 
+        try to uncomment `<app-navbar>`
+        and comment SharedModule from agency-profile.module.ts
+        it will throw error
+     -->
+    <!-- <app-navbar></app-navbar> -->
+
+    <p>agency-profile works!</p>
+
+    <!-- 
+        let say we add to app-hub-profile-experience.component.ts:
+        @Input() a!: number;
+        @Input() b!: number;
+
+        because we want to pass data from here.
+
+        fact that you need to know:
+        1. app-add-learner-details use `<app-hub-profile-experience>`
+        
+            app-hub-profile-experience can be used because `generic-hub` import `generic-agency-profile`
+
+        agency-profile
+        |- import `generic-agency-profile`
+        |- import `generic-hub`
+            |- import `generic-agency-profile`
+            |- declare and export `<app-add-learner-details>`
+
+        however, the fact above is unknown to developer unless you look for it.
+
+        so, after you make changes, the compiler will not throw error.
+     -->
+    <app-hub-profile-experience [a]="2" [b]="3"></app-hub-profile-experience>
+    <app-add-learner-details></app-add-learner-details>
+</div>

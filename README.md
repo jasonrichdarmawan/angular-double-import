@@ -1,3 +1,15 @@
+# For visualization
+
+[for most up to date](https://drive.google.com/file/d/11QSkqCPXR3-UciEJ1aycSnTRiqM57Jmz/view?usp=sharing)
+
+Summary
+
+![Summary](./assets//mereka.io%20-%20Angular%20Library%20-%20navbar-Master.drawio.svg)
+
+double import of `GenericAgencyProfileModule`
+
+![GenericAgencyProfileModule](./assets/mereka.io%20-%20Angular%20Library%20-%20navbar-1.%20GenericAgencyProfileModule.drawio.png)
+
 # AngularDoubleImport
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
