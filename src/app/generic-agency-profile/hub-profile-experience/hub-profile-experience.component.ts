@@ -6,8 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./hub-profile-experience.component.scss']
 })
 export class HubProfileExperienceComponent implements OnInit {
-  @Input() a!: number;
-  @Input() b!: number;
+  @Input() a?: number;
+  @Input() b?: number;
 
   constructor() { }
 

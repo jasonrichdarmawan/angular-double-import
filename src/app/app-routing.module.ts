@@ -10,6 +10,11 @@ const routes: Routes = [
         loadChildren: () => import("./agency-profile/agency-profile.module").then(m => m.AgencyProfileModule),
       },
     ],
+  },
+  {
+    path: '',
+    redirectTo: 'hub/1',
+    pathMatch: 'full'
   }
 ];
 
